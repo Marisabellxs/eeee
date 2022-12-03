@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int i = int.Parse(Console.ReadLine());
+
+if (i>99 && i<1000)
+{
+    Console.WriteLine(i%10);
+}
