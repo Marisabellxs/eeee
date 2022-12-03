@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Введите число");
+int i = int.Parse(Console.ReadLine());
+int number = 0;
+while (number<=i)
+{
+    Console.WriteLine(number);
+    number++;
+}
