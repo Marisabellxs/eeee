@@ -4,19 +4,26 @@ Console.WriteLine("Введите второе число");
 int secondnumber = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите третье число");
 int thirdnumber = int.Parse(Console.ReadLine());
+int max = 0;
 
 if (firstnumber>=secondnumber & secondnumber>=thirdnumber)
 {
-    Console.WriteLine("Первое число максимальное");
+    max = firstnumber;
+    Console.Write("Максимальное из чисел -> ");
+    Console.WriteLine(max);
 }
 else
 {
     if (secondnumber>=thirdnumber)
     {
-        Console.WriteLine("Второе число максимальное");
+        max = secondnumber;
+        Console.Write("Максимальное из чисел -> ");
+        Console.WriteLine(max);
     }
     else
     {
-        Console.WriteLine("Третье число максимальное");
+        max = thirdnumber;
+        Console.Write("Максимальное из чисел -> ");
+        Console.WriteLine(max);
     }
 }
